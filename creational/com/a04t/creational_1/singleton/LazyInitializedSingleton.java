@@ -1,4 +1,4 @@
-package com.a04t.singleton;
+package com.a04t.creational_1.singleton;
 
 public class LazyInitializedSingleton {
 	private static LazyInitializedSingleton instance;

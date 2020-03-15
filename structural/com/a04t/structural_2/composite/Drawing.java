@@ -1,4 +1,4 @@
-package com.a04t.composite;
+package com.a04t.structural_2.composite;
 
 import java.util.ArrayList;
 import java.util.List;

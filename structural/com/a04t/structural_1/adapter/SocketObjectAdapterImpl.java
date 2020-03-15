@@ -1,4 +1,4 @@
-package com.a04t.adapter;
+package com.a04t.structural_1.adapter;
 
 public class SocketObjectAdapterImpl implements SocketAdapter {
 

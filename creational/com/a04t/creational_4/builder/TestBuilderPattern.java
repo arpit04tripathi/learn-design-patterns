@@ -1,4 +1,4 @@
-package com.a04t.builder;
+package com.a04t.creational_4.builder;
 
 public class TestBuilderPattern {
 	public static void main(String[] args) {

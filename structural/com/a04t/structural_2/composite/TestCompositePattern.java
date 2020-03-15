@@ -1,4 +1,4 @@
-package com.a04t.composite;
+package com.a04t.structural_2.composite;
 
 public class TestCompositePattern {
 	public static void main(String[] args) {
