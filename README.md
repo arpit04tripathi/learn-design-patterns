@@ -1,2 +1,5 @@
-# learn-design-patterns
+# Learn Design Patterns
+
 Learning Design Patterns
+- Creational
+- Structural
