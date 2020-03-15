@@ -38,11 +38,11 @@ public class TestSingletonPattern {
 
 		// Broken with Reflection
 		try {
-			ObjectOutput out = new ObjectOutputStream(new FileOutputStream("filename.ser"));
+			ObjectOutput out = new ObjectOutputStream(new FileOutputStream("singleton.txt"));
 			out.writeObject(instanceOne);
 			out.close();
 			// deserailize from file to object
-			ObjectInput in = new ObjectInputStream(new FileInputStream("filename.ser"));
+			ObjectInput in = new ObjectInputStream(new FileInputStream("singleton.txt"));
 			instanceTwo = (DclSingleton) in.readObject();
 			in.close();
 			System.out.println(String.format("After Serialization, instanceOne - %s, instanceTwo - %s",
