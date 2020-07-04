@@ -1,7 +1,6 @@
 package com.a04t.creational_1_singleton;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInput;
@@ -23,8 +22,8 @@ public class TestSingletonPattern {
 
 		// Broken with Reflection
 		try {
-			Constructor[] constructors = DclSingleton.class.getDeclaredConstructors();
-			for (Constructor constructor : constructors) {
+			Constructor<?>[] constructors = DclSingleton.class.getDeclaredConstructors();
+			for (Constructor<?> constructor : constructors) {
 				constructor.setAccessible(true);
 				instanceTwo = (DclSingleton) constructor.newInstance();
 			}
